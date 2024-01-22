@@ -1,9 +1,9 @@
-# Print the called methods ?
+# Print the called methods
 $global:DebugEmailAddress = $False
 
 class EmailAddress {
 
-    ################################################################ ATTRIBUTES
+    ########################################################################### ATTRIBUTES
 
     [String]$Address                   # "jean-dupont@mydomain.com"
     [String]$AddressPattern            # "(?:[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z..."
@@ -12,7 +12,7 @@ class EmailAddress {
     [String]$LocalPart                 # "jean-dupont"
     [String]$LocalPartPattern          # "(?:[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z..."
 
-    ############################################################## CONSTRUCTORS
+    ########################################################################### CONSTRUCTORS
     #
     # Construct an instance of the class (without an address yet)
     #
@@ -120,7 +120,7 @@ class EmailAddress {
         }
     }
 
-    ################################################################### SETTERS
+    ########################################################################### SETTERS
     #
     # Set the value of the address if it is valid
     #
@@ -525,7 +525,7 @@ class EmailAddress {
         return $This.DomainPattern
     }
 
-    ################################################################### METHODS
+    ########################################################################### METHODS
     #
     # Generate the address with the current local part and the domain
     #

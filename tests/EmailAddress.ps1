@@ -1,6 +1,6 @@
-Using module ".\EmailAddress.psm1"
+Using module "..\modules\EmailAddress.psm1"
 
-Import-Module -ErrorAction "Stop" -Name "$PSScriptRoot\EmailAddress.psm1"
+Import-Module -ErrorAction "Stop" -Name "$PSScriptRoot\..\modules\EmailAddress.psm1"
 
 ############################################################################### EmailAddress()
 #
