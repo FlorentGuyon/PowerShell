@@ -5,9 +5,9 @@ class Account {
 
     ########################################################################### ATTRIBUTES
 
-    [PSCredential]$Credential          # PSCredential (jean-dupont / MyPassword1234!)
-    [SecureString]$Password            # SecureString ("MyPassword1234!")
-    [String]$Username                  # "jean-dupont"
+    hidden [PSCredential]$Credential          # PSCredential (jean-dupont / MyPassword1234!)
+    hidden [SecureString]$Password            # SecureString ("MyPassword1234!")
+    hidden [String]$Username                  # "jean-dupont"
 
     ########################################################################### CONSTRUCTOR
     #

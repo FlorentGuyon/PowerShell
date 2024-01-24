@@ -5,12 +5,12 @@ class EmailAddress {
 
     ########################################################################### ATTRIBUTES
 
-    [String]$Address                   # "jean-dupont@mydomain.com"
-    [String]$AddressPattern            # "(?:[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z..."
-    [String]$Domain                    # "mydomain.com"
-    [String]$DomainPattern             # "(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+..."
-    [String]$LocalPart                 # "jean-dupont"
-    [String]$LocalPartPattern          # "(?:[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z..."
+    hidden [String]$Address                   # "jean-dupont@mydomain.com"
+    hidden [String]$AddressPattern            # "(?:[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z..."
+    hidden [String]$Domain                    # "mydomain.com"
+    hidden [String]$DomainPattern             # "(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+..."
+    hidden [String]$LocalPart                 # "jean-dupont"
+    hidden [String]$LocalPartPattern          # "(?:[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z..."
 
     ########################################################################### CONSTRUCTORS
     #
